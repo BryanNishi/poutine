@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'ritz';
+    src: url(./assets/fonts/RitzyNormal.ttf) format('truetype');
+}
+
+.bg {
+    background-image: url("./assets/images/badbg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position-y: 25%;
+    background-position-x: 50%;
+    font-family: ritz;
+}
+
+.nav {
+    background-image: url("./assets/images/keys.jpg");
+    background-position-y: 60%;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.7rem;
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 1.7rem;
+}
+
+.nav li{
+    background-color: rgb(53, 53, 53);
+    opacity: 0.9;
+    margin: 0.5rem 1rem;
+    border: 1px solid white;
+    border-bottom-color:  rgb(53, 53, 53)
+}
+
+.nav li:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    border: 1px solid black;
+   
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+
+}
+
+.content h2 {
+    font-size: 2rem;
+}
