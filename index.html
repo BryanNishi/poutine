@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Poutine on the Ritz</title>
 </head>
 
@@ -15,29 +16,75 @@
     <div class="bg">
         <ul class="nav nav-tabs justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="/where">Where's the Truck?</a>
+                <a class="nav-link" href="#map">Where's the Truck?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/menu">Menu</a>
+                <a class="nav-link" href="#menu">Menu</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/book">Book the Truck</a>
+                <a class="nav-link" href="#book">Book the Truck</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="#about">About</a>
             </li>
         </ul>
         <div class="container">
+
             <div class="content">
-                <h1>Welcome to Poutine on the Ritz!</h1>
-                <h2>Our food truck serves the Denver Metro Area</h2>
-
-
-
+                <div class="welcome">
+                    <h1>Poutine on the Ritz!</h1>
+                    <h2>Serving the Denver Metro Area</h2>
+                </div>
+                <br>
+                <section>
+                    <div class="map">
+                        <h3>Where's the Truck?</h3>
+                        <div id="map">
+                        </div>
+                    </div>
+                </section>
+                <section id="menu">
+                    <div class="menu">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li>Regular Poutine</li>
+                            <p>-Fries, Gravy, Curds. </p>
+                            <p>Simple and Classic.</p>
+                            <br>
+                            <li>Southwest</li>
+                            <p>-Fries, Pork Green Chili, Montery Jack Curds</p>
+                            <p>Colorado or New Mexico?</p>
+                            <br>
+                            <li>Tikka Masala</li>
+                            <p>-Fries, Chicken, Masala, Paneer Cheese</p>
+                            <p>Mild but full of flavor!</p>
+                            <br>
+                            <li>Chicken Pot Pie</li>
+                            <p>-Fries, Chicken, Gravy, Peas, Carrots</p>
+                            <p>Confort Food at it's best.</p>
+                        </ul>
+                    </div>
+                </section>
+                <section id="book">
+                    <div class="book">
+                        <h3>book</h3>
+                        <p>Date: <input type="text" id="datepicker"></p>
+                    </div>
+                </section>
+                <section id="contact">
+                    <div class="contact">
+                        <h3>Contact</h3>
+                    </div>
+                </section>
+                <section id="about">
+                    <div class="about">
+                        <h3>About</h3>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -47,6 +94,12 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChORehJHrcCOXjXgCu860roDAZSJDKRbY&callback=initMap">
+    </script>
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 </body>
 
 </html>
