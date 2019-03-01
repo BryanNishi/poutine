@@ -1,3 +1,4 @@
+
 //google maps API
 
 var map;
@@ -14,9 +15,3 @@ function initMap() {
         })
 
 };
-
-//datepicker
-
-$( function() {
-    $( "#datepicker" ).datepicker();
-  } );
