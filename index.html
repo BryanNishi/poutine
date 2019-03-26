@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <link rel="stylesheet" href="style.css">
     <title>Poutine on the Ritz</title>
@@ -32,7 +32,7 @@
 
             <div class="content">
                 <div class="welcome">
-                    <h1>Poutine on the Ritz!</h1>
+                    <h1>Poutine on the Ritz Foodtruck</h1>
                     <h2>Serving the Denver Metro Area</h2>
                 </div>
                 <br>
@@ -57,37 +57,43 @@
                         <ul>
                             <li>Classic Poutine</li>
                             <p>-Fries, Gravy, Curds. </p>
-                            <p>Simple and Classic.</p>
+                            <p>~Simple and Classic~</p>
                             <br>
                             <li>Southwest</li>
                             <p>-Fries, Pork Green Chili, Montery Jack Curds</p>
-                            <p>Colorado or New Mexico?</p>
+                            <p>~Colorado or New Mexico? Who cares? Just eat it~</p>
                             <br>
                             <li>Tikka Masala</li>
                             <p>-Fries, Chicken, Masala, Paneer Cheese</p>
-                            <p>Mild but full of flavor!</p>
+                            <p>~Mild spice but full of flavor~</p>
                             <br>
                             <li>Chicken Pot Pie</li>
                             <p>-Fries, Chicken, Gravy, Peas, Carrots</p>
-                            <p>Confort Food at it's best.</p>
+                            <p>~Comfort Food at it's best~</p>
+                            <br>
+                            <li>BBQ Pulled Pork</li>
+                            <p>-Fries, Marinated Pulled Pork, Gravy, Curds</p>
+                            <p>~Smokey and Savory~</p>
+                            <br>
                         </ul>
                     </div>
                 </section>
                 <section id="contact">
                     <div class="contact">
                         <h3>Contact</h3>
-                        <p>Phone: 555-5555</p>
-                        <p>Email: poutinetruckdenver@email.com</p>
+                        <p>Phone: (303)555-5555</p>
+                        <p>Email: poutinetruckdenver@gmail.com</p>
                         <br>
                         <h4>Want to book the truck? Fill out the form:</h4>
-                        <h4>Name: <input type="text" id="name"></h4>
-                        <h4>Email: <input type="text" id="email"></h4>
-                        <h4>Phone #: <input type="text" id="phone"></h4>
-                        <h4>Message: <textarea rows="2" cols="25" id="message"></textarea></h4>
-                        <h4>Date: <input type="text" id="datepicker"></h4>
-                        <input type="submit" id="submit">
+                        <form action="mailto:poutinetruckdenver@gmail.com?subject=Truck Booking Request" method="post"
+                            enctype="text/plain" id="form">
+                            <p>Name:<input type="text" name="Name"></p>
+                            <p>Email:<input type="text" name="Email"></p>
+                            <p>Date: <input type="text" name="Date" id="datepicker"></p>
+                            <p>Notes: <textarea rows="4" cols="22" name="Notes"></textarea></p>
+                            <input type="submit" value="Submit">
+                        </form>
                         <br>
-
                     </div>
                 </section>
                 <section id="about">
@@ -96,17 +102,23 @@
                         <p>Poutine on the Ritz was created in 2019 by Bryan and Amanda Nishi.<br>
                             After visiting Quebec they decided to open a poutine food truck.<br>
                             The End!</p>
+                        <p>Pictures courtesy of <a href="https://www.denver.org" target="_blank"
+                                title="Visit Denver">Visit Denver</a>
+                        </p>
                     </div>
                 </section>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="pikaday.js"></script>
@@ -115,8 +127,11 @@
             field: document.getElementById('datepicker')
         });
     </script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChORehJHrcCOXjXgCu860roDAZSJDKRbY&callback=initMap">
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChORehJHrcCOXjXgCu860roDAZSJDKRbY&callback=initMap">
     </script>
 
 
