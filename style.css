@@ -10,6 +10,7 @@
 
 body {
     background-color: black;
+    font-family: serif;
 }
 
 .banner {
@@ -23,11 +24,12 @@ body {
     height: 1rem;
 }
 
-.banner h1 {
+.banner h3 {
     background-color: black;
     margin: 0;
+    padding-top: 0.5rem;
     font-family: serif;
-}
+   }
 
 .fab {
 
@@ -35,10 +37,13 @@ body {
 }
 
 .bg1 {
-    background-image: url("./assets/images/skyline.jpeg");
+    background-image: url("./assets/images/eating.jpg");
     background-position-y: 50%;
     background-position-x: 50%;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0rem 5rem;
 }
 
 .bg2 {
@@ -46,9 +51,10 @@ body {
     background-position-y: 35%;
     background-position-x: 50%;
     background-size: 100%;
-    height: 20rem;
+    height: 25rem;
     background-repeat: no-repeat;
     padding: 1rem 10rem;
+    border-bottom: 0.7rem solid white;
 }
 
 .logo {
@@ -90,7 +96,7 @@ body {
 .map {
     overflow: hidden;
     margin: 1rem;
-  
+    
 }
 
 .map p {
@@ -111,6 +117,11 @@ body {
     width: 30rem;
     margin: auto;
     margin-bottom: 1rem;
+}
+
+.border {
+    background-color: #666;
+    opacity: 0.5;
 }
 
 .menu {
@@ -137,7 +148,7 @@ body {
     width: 90%;
     list-style-type: none;
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+   
 
 }
 
@@ -159,18 +170,11 @@ body {
     text-shadow: 2px 2px black;
 }
 
-.contact #datepicker {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.contact p {
-    font-family: 'Times New Roman', Times, serif;
-}
 
 #form p {
     display: flex;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .about {
@@ -184,5 +188,5 @@ body {
     text-shadow: 1px 1px black;
     font-size: 1.2rem;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+   
 }
