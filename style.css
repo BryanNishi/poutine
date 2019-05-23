@@ -8,51 +8,62 @@
     src: url(assets/fonts/Playbill.ttf) format('truetype');
 }
 
-.bg {
+body {
+    background-color: black;
+}
+
+.banner {
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: inline;
+}
+
+.banner img {
+    height: 1rem;
+}
+
+.banner h1 {
+    background-color: black;
+    margin: 0;
+    font-family: serif;
+}
+
+.fab {
+
+    margin: 1rem 0.2rem;
+}
+
+.bg1 {
     background-image: url("./assets/images/skyline.jpeg");
     background-position-y: 50%;
     background-position-x: 50%;
-    font-family: ritz;
     background-attachment: fixed;
 }
 
-.nav {
-    z-index: 99;
-    width: 100%;
-    background-image: linear-gradient(to bottom right, indianred, rgb(70, 31, 31), indianred);
+.bg2 {
+    background-image: url("./assets/images/bluebear.jpg");
+    background-position-y: 35%;
+    background-position-x: 50%;
+    background-size: 100%;
+    height: 20rem;
+    background-repeat: no-repeat;
+    padding: 1rem 10rem;
 }
 
-.nav a {
-    text-decoration: none;
+.logo {
+    height: 20rem;
+}
+
+.bg2 h1 {
     color: white;
+    font-family: serif;
+    text-align: left;
     text-shadow: 2px 2px black;
-    font-size: 1.7rem;
+    margin: 3rem 3rem;
 }
 
-.nav a:hover {
-    text-decoration: none;
-    color: black;
-    text-shadow: 2px 2px white;
-    font-size: 1.7rem;
-    transition: color 0.5s ease;
-}
 
-.nav li {
-    background-color: rgb(53, 53, 53);
-    opacity: 0.9;
-    margin: 0.5rem 1rem;
-    border: 1px solid white;
-    border-bottom-color: rgb(53, 53, 53);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.nav li:hover {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    border: 1px solid black;
-
-}
 
 .content {
     text-align: center;
@@ -77,12 +88,9 @@
 }
 
 .map {
-    border: 3px solid white;
-    border-radius: 1rem;
     overflow: hidden;
-    background-color: #666;
-    opacity: 0.9;
-    margin-top: 1rem;
+    margin: 1rem;
+  
 }
 
 .map p {
@@ -94,6 +102,8 @@
 .map li {
     color: white;
     list-style-type: none;
+    text-shadow: 2px 2px black;
+    font-size: 1.2rem;
 }
 
 #map {
@@ -104,13 +114,10 @@
 }
 
 .menu {
-    border: 3px solid white;
-    border-radius: 1rem;
-    background-color: #666;
-    opacity: 0.9;
     margin-top: 1rem;
     padding-bottom: 1rem;
     overflow: hidden;
+    width: 100%;
 }
 
 .menu h3 {
@@ -119,7 +126,7 @@
     font-family: "playbill";
     font-size: 3.5rem;
     text-shadow: none;
-    width: 50%;
+    width: 90%;
     border: 1px solid black;
     margin: auto;
     margin-top: 1rem;
@@ -127,7 +134,7 @@
 
 .menu ul {
     margin: auto;
-    width: 50%;
+    width: 90%;
     list-style-type: none;
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -139,6 +146,8 @@
 }
 
 .contact {
+    margin: auto;
+    width: 50%;
     border: 3px solid white;
     border-radius: 1rem;
     overflow: hidden;
@@ -165,10 +174,8 @@
 }
 
 .about {
-    border: 3px solid white;
-    border-radius: 1rem;
-    background-color: #666;
-    opacity: 0.9;
+    margin: auto;
+    width: 100%;
     margin-top: 1rem;
 }
 
