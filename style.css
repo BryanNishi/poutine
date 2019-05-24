@@ -47,7 +47,7 @@ body {
 }
 
 .bg2 {
-    background-image: url("./assets/images/bluebear.jpg");
+    background-image: url("./assets/images/skyline.jpg");
     background-position-y: 35%;
     background-position-x: 50%;
     background-size: 100%;
@@ -134,7 +134,7 @@ body {
 .menu h3 {
     background: yellow;
     color: black;
-    font-family: "playbill";
+    font-family: serif;
     font-size: 3.5rem;
     text-shadow: none;
     width: 90%;
